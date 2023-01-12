@@ -1,2 +1,2 @@
 FROM quay.io/keycloak/keycloak-x
-CMD kc.sh start
+CMD ["start", "--hostname", "secure.do.kapowai.com.ua", "--http-enabled=true"]
